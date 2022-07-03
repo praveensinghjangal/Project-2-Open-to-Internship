@@ -9,7 +9,8 @@ name:{type:String,
     type:String,
     require:"Please provide email",
     unique:true,
-    trim:true
+    trim:true,
+    lowercase: true
   },
  mobile:{type:Number,
     require:"Please provide contact details",
